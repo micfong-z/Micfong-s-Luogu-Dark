@@ -5,7 +5,7 @@
 .header-layout.tiny[data-v-90bffe18] {
     background: #202020 !important;
 }
-.lg-article, .card, .am-panel, .am-g.lg-table-bg0.lg-table-row, button, .am-pagination>li>a, .am-pagination>li>span, .drop, .image-block, .user-nav, .mp-editor-container, .inner-card, .discuss {
+.lg-article, .card, .am-panel, .am-g.lg-table-bg0.lg-table-row, button, .am-pagination>li>a, .am-pagination>li>span, .drop, .image-block, .user-nav, .mp-editor-container, .inner-card, .discuss, .message-block > .message, .list > .item {
     background: rgba(255, 255, 255, 0.0512) !important;
     border: 1px solid rgba(0, 0, 0, 0.2) !important;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.13) !important;
@@ -35,7 +35,7 @@
     border-radius: 8px !important;
     color: white !important;
 }
-input.am-form-field, textarea#feed-content, input.lfe-form-sz-middle, input.lfe-form-sz-small, .swal2-input {
+input.am-form-field, textarea#feed-content, input.lfe-form-sz-middle, input.lfe-form-sz-small, .swal2-input, textarea.lfe-form-sz-middle {
     background: rgba(255, 255, 255, 0.0605) !important;
     border-radius: 5px !important;
     border-color: rgba(0, 0, 0, 0.06) rgba(0, 0, 0, 0.06) rgba(255, 255, 255, 0.5442) rgba(0, 0, 0, 0.06) !important;
@@ -43,7 +43,7 @@ input.am-form-field, textarea#feed-content, input.lfe-form-sz-middle, input.lfe-
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.04) !important;
     color: white !important;
 }
-input.am-form-field:focus, textarea#feed-content:focus, input.lfe-form-sz-middle:focus, input.lfe-form-sz-small:focus, .swal2-input:focus {
+input.am-form-field:focus, textarea#feed-content:focus, input.lfe-form-sz-middle:focus, input.lfe-form-sz-small:focus, .swal2-input:focus, textarea.lfe-form-sz-middle:focus {
     background: rgba(255, 255, 255, 0.0605) !important;
     border-radius: 5px !important;
     border-color: rgba(0, 0, 0, 0.06) rgba(0, 0, 0, 0.06) rgba(96, 205, 255, 1) rgba(0, 0, 0, 0.06) !important;
@@ -58,7 +58,7 @@ input.am-form-field:focus, textarea#feed-content:focus, input.lfe-form-sz-middle
 .highcharts-axis-labels.highcharts-xaxis-labels > text {
     fill: rgba(255, 255, 255, 0.5) !important;
 }
-.highcharts-grid-line {
+.highcharts-grid-line, .message::after, .message::before {
     display: none;
 }
 .highcharts-point.highcharts-color-1 {
@@ -193,6 +193,10 @@ strong, .header > .right a {
     background: none;
     border: none;
 }
+
+.side > div {
+    border: none !important;
+}
 blockquote {
     border-left: 5px solid rgba(255, 255, 255, 0.2) !important;
 }
@@ -200,7 +204,7 @@ pre {
     border: rgba(255, 255, 255, 0.1) solid 1px !important;
     background: rgba(255, 255, 255, 0.1) !important;
 }
-.marked h1, .marked h, .mp-preview-content h1, .mp-preview-content h2 {
+.marked h1, .marked h, .mp-preview-content h1, .mp-preview-content h2, .editor, .side, .top-container {
     border-color: rgba(255, 255, 255, 0.2) !important;
 }
 .svg-inline--fa.fa-angle-down.fa-w-10 path {
