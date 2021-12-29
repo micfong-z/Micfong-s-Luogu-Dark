@@ -1,4 +1,4 @@
-@-moz-document domain("www.luogu.com.cn") {
+@-moz-document regexp("(.*www\\.luogu\\.com\\.cn/|.*www\\.luogu\\.com\\.cn/[^b].*)") {
 .lfe-body {
     background: #282828 !important;
 }
@@ -252,7 +252,7 @@ g.highcharts-label.highcharts-tooltip.highcharts-color-0 > path:nth-child(4) {
 }
 }
 
-@-moz-document domain("www.luogu.com.cn") {
+@-moz-document regexp("(.*www\\.luogu\\.com\\.cn/|.*www\\.luogu\\.com\\.cn/[^b].*)") {
 code {
     border: rgba(255, 255, 255, 0.1) solid 1px !important;
     background: rgba(255, 255, 255, 0.1) !important;
@@ -306,7 +306,7 @@ code {
 }
 }
 
-@-moz-document domain("www.luogu.com.cn") {
+@-moz-document regexp("(.*www\\.luogu\\.com\\.cn/|.*www\\.luogu\\.com\\.cn/[^b].*)") {
 .CodeMirror-gutters {
     background: rgb(61 61 61) !important;
     color : #ffffff !important;
